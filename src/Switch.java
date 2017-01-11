@@ -71,6 +71,10 @@ public class Switch {
                 System.out.println("Jul");
                 break;
 
+            case "august":
+                System.out.println("aug");
+                break;
+
             default:
                 System.out.println("Not sure");
                 break;
