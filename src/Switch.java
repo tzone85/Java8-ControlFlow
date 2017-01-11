@@ -3,7 +3,7 @@
  */
 public class Switch {
     public static void main(String [] args){
-        int value = 1;
+        /*int value = 1;
 
         if(value == 1){
             System.out.println("Value was 1");
@@ -13,7 +13,7 @@ public class Switch {
             System.out.println("Value was 1 or 2");
         }
 
-        int switchValue = 1;
+        int switchValue = 4;
 
         switch (switchValue){
             case 1:
@@ -24,12 +24,55 @@ public class Switch {
                 System.out.println("Value was 2");
                 break;
 
-            case 3:
-                System.out.println("value was 3");
+            case 3:case 4:case 5:
+                System.out.println("Value was 3, 4, 5");
+                System.out.println("The actual value was " + switchValue);
                 break;
 
             default:
-                System.out.println("Value was 1, 2 or 3");
+                System.out.println("Value was 1 or 2");
+                break; */
+        char value = 'G';
+
+        switch (value){
+            case 'A':
+                System.out.println("Letter is A");
+                break;
+
+            case 'B':
+                System.out.println("Letter is B");
+                break;
+
+            case 'C':
+                System.out.println("Letter is C");
+                break;
+
+            case 'D':
+                System.out.println("Letter is D");
+                break;
+
+            default:
+                System.out.println("Not found");
+                break;
+        }
+
+        String months = "July";
+
+        switch (months){
+            case "January":
+                System.out.println("Jan");
+                break;
+
+            case "October":
+                System.out.println("October");
+                break;
+
+            case "July":
+                System.out.println("Jul");
+                break;
+
+            default:
+                System.out.println("Not sure");
                 break;
         }
     }
