@@ -32,7 +32,7 @@ public class Switch {
             default:
                 System.out.println("Value was 1 or 2");
                 break; */
-        char value = 'G';
+        char value = 'A';
 
         switch (value){
             case 'A':
@@ -56,18 +56,18 @@ public class Switch {
                 break;
         }
 
-        String months = "July";
+        String months = "july";
 
-        switch (months){
-            case "January":
+        switch (months.toLowerCase()){
+            case "january":
                 System.out.println("Jan");
                 break;
 
-            case "October":
+            case "october":
                 System.out.println("October");
                 break;
 
-            case "July":
+            case "july":
                 System.out.println("Jul");
                 break;
 
